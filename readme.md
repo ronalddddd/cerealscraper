@@ -82,7 +82,7 @@ var blueprint = new CerealScraper.Blueprint({
     parallelRequests: true,
     // The rate limit for making page requests. See https://www.npmjs.com/package/limiter
     requestLimiterOptions: {requests: 1, perUnit: 'second'},
-    // The rate limit for calling PageItem#_process(), i.e. your `itemProcessor()` method
+    // The rate limit for calling your `itemProcessor` method
     processLimiterOptions: {requests: 100, perUnit: "second"}
 });
 
