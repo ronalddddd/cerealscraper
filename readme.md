@@ -22,7 +22,7 @@ It is essentially glue code for the popular libraries used to do scraping in nod
 
 This example scrapes Craigslist for apartment rent listings, applies some transformation to the extracted fields and then finally outputs each item to the console.
 
-```
+```javascript
 // This example demonstrates how to define a Blueprint in CerealScraper and then executing the scrape job
 'use strict';
 var CerealScraper = require('../index'),
