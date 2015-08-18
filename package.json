@@ -1,0 +1,32 @@
+{
+  "name": "cerealscraper",
+  "version": "0.5.0",
+  "description": "Simple web scraper library",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "web",
+    "scraper",
+    "framework",
+    "cheerio",
+    "jQuery",
+    "rate limit"
+  ],
+  "author": "Ronald Ng",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "cheerio": "^0.19.0",
+    "cheerio-eq": "^1.0.1",
+    "htmltidy": "0.0.6",
+    "limiter": "^1.0.5",
+    "lodash": "^3.10.0",
+    "request": "^2.60.0"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/ronalddddd/cerealscraper"
+  }
+}
