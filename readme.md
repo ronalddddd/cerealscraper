@@ -25,7 +25,7 @@ This example scrapes Craigslist for apartment rent listings, applies some transf
 ```javascript
 // This example demonstrates how to define a Blueprint in CerealScraper and then executing the scrape job
 'use strict';
-var CerealScraper = require('../index'),
+var CerealScraper = require('cerealscraper'),
     TextSelector = CerealScraper.Blueprint.TextSelector,
     ConstantSelector = CerealScraper.Blueprint.ConstantSelector,
     TransformSelector = CerealScraper.Blueprint.TransformSelector,
