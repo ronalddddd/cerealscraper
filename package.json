@@ -22,7 +22,7 @@
     "cheerio-eq": "^1.0.1",
     "htmltidy": "0.0.6",
     "limiter": "^1.0.5",
-    "lodash": "^3.10.0",
+    "lodash": ">=4.17.11",
     "request": "^2.60.0"
   },
   "repository": {
